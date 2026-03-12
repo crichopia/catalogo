@@ -1,3 +1,16 @@
 :root {
-background-color: rgb(224, 175, 201);
+background-color: rgb(202, 220, 255);
+}
+
+#main-container {
+    background-color: rgb(255, 165, 214);
+    border: 2px solid rgb(255, 140, 174);
+}
+
+header{
+    background-color: rgb(255, 165, 214);
+    border: 2px solid rgb(255, 140, 174);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 100%;
 }
