@@ -30,14 +30,13 @@ article{
 
 .img_producto{
     width :clamp(120px, 1vw, 180px);
-    margin-right: 5%;
+    margin-right: 2%;
 
     border-radius : 20px;
 }
 
 h2{
     margin-bottom: 5px;
- 
 }
 
 p{
