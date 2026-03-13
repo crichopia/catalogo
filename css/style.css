@@ -1,7 +1,7 @@
 header{
 
-    width: 80%;
-    margin: 5% 15% 5% 5%;
+    width: 65%;
+    margin: 5% 5% 5% 10%;
     padding: 15px 25px 25px 20px ;/*espacio dentro*/
     display: flex;
 
@@ -16,31 +16,62 @@ header h1{
 #logo{
     margin-left: 2%;
     margin-right: 1%;
-    width :clamp(100px, 1vw, 180px);
+    width :clamp(100px, 1vw, 200px);
 }
 
 article{
 
-    width: 80%;
-    margin: 5% 15% 5% 5%;
-    padding: 15px 25px 25px 20px ;/*espacio dentro*/
-    display: flex;
+    width: 65%;
+    margin: 5% 5% 5% 10%;
+    padding: 10px 25px 25px 20px ;/*espacio dentro*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
 }
 
 .img_producto{
-    width :clamp(120px, 1vw, 180px);
+    --ancho_imagen : 20vw;
+    width: var(--ancho_imagen);
+    height: var(--ancho_imagen);
     margin-right: 5%;
-
     border-radius : 20px;
 }
 
-h2{
+article h2{
+    
+    margin-top: 0px;
     margin-bottom: 5px;
-
 }
 
-p{
+article p{
     margin-bottom: 0px;
     margin-top: 0px;
 }
+
+.precio p{
+    margin-left: 6vw;
+    margin-top : 2vw;
+}
+
+@media (max-width: 599px) {
+    .redes {
+    width: 6vw;
+    height: auto;
+    gap: 10px;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    }
+}
+
+@media (min-width: 600px) {
+    .redes {
+    width: 2.5vw;
+    height: auto;
+    gap: 10px;
+    margin-left: 0.5vw;
+    margin-top: 1vw;
+
+    }
+}
+
+
