@@ -5,16 +5,29 @@ header{
     padding: 15px 25px 25px 20px ;/*espacio dentro*/
     display: flex;
 
-
-
 }
+
 header h1{
-    margin-left: 5%;
+    margin-left: 10px;
     margin-top: 2%;
     margin-bottom: 0px;
 }
 
 #logo{
     margin-left: 5%;
-    margin-right: 5%;
+}
+
+article{
+
+    width: 80%;
+    margin: 5% 10% 5% 10%;
+    padding: 15px 25px 25px 20px ;/*espacio dentro*/
+    display: flex;
+
+}
+
+.img_producto{
+    width : "200";
+    
+    border-radius : 20px;
 }

@@ -1,5 +1,5 @@
 :root {
-background-color: rgb(202, 220, 255);
+background-color: rgb(206, 222, 253);
 }
 
 
@@ -9,4 +9,13 @@ header{
     border-radius: 15px;
     /* text-align: center; */
     font-size: 100%;
+}
+
+.producto{
+
+    background-color: rgb(201, 226, 246);
+    border: 2px solid rgb(138, 151, 175);
+    border-radius: 15px;
+
+
 }
