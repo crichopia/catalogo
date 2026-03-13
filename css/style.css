@@ -17,7 +17,6 @@ header h1{
     margin-left: 5%;
     margin-right: 2%;
     width :clamp(100px, 1vw, 180px);
-    /* height:10%; */
 }
 
 article{
@@ -34,4 +33,14 @@ article{
     margin-right: 5%;
 
     border-radius : 20px;
+}
+
+h2{
+    margin-bottom: 5px;
+ 
+}
+
+p{
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
